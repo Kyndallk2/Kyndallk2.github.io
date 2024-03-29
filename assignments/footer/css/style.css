@@ -1,0 +1,38 @@
+
+/* styling for the footer */
+ * footer{ 
+background-color:lightgrey;
+display:flex;
+justify-content:space in between;
+ }
+   
+/* styling contact section */
+.contact {
+    display:flex;
+    flex-direction: row;
+    font-weight: bold;
+    text-align: left;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+.information {
+    flex-direction:row;
+    text-align: right;
+    margin:35px 400px;
+    font-size:15px;
+}
+
+/* styling copyright */
+.copyright {
+    font-size: 14px;
+    color:black;
+}
+    
+
+    
+
+
+    
+
+
+
