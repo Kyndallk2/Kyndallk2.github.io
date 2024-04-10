@@ -26,7 +26,12 @@ a:hover {
 }
 /*styling for h1*/
 h1 {
-  margin-left: 80%; /* moves book appointment button*/
+  margin-left: 5%; /* moves Misson*/
+}
+/* stylig for p*/
+p{
+  margin-left: 15%;
+  text-size-adjust: 4rem;
 }
 button {
   background-color: black;
@@ -35,6 +40,7 @@ button {
   height: 36px;
   width: 125px;
   margin: 8px;
+  margin-left: 80%; /* moves button*/
 }
 /* styling for the footer */
 footer {
