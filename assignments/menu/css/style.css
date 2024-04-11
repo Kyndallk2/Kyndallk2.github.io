@@ -1,4 +1,4 @@
-*{
+* {
   font-family: "Roboto";
 }
 /* styling for the menu */
@@ -31,11 +31,11 @@ h1 {
 /* stylig for p*/
 p{
   margin-left: 15%;
-  text-size-adjust: 4rem;
+  font-size: 4rem;
 }
 button {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
   font: 1rem;
   height: 36px;
   width: 125px;
@@ -66,5 +66,5 @@ footer {
 /* styling copyright */
 .copyright {
   font-size: 1rem;
-  color: black;
+  color: #000000;
 }
