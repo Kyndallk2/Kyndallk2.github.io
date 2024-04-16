@@ -1,55 +1,77 @@
 * {
   font-family: "Roboto";
+  margin: 0;
+  padding: 0;
 }
 /* styling for the menu */
+/* .logo img {
+  margin-left: 40%;
+} */
 header {
-  border-bottom: 1px solid #000; /*sold black line under*/
+ background-color: #FFF1F7;
 }
-logo {
-  text-align: center;
+.logo {
+  display: flex;
+  justify-content: center;
 }
-nav {
-  background-color: #fff;
+menu {
+  margin: 0%;
 }
-ul {
-  padding: 10px;
-  list-style-type: none; /*removes bullet points*/
+menu ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
-li a {
-  color: black;
+menu ul a {
+  color: #000000;
   text-decoration: none; /*removes the underline*/
-  display: block;
-  padding: 14px 16px; /*spaces navigation vertically*/
+  /* display: flex;
+  justify-content: space-between; */
+  /* padding: 10px; */
 }
-a:hover {
-  border-bottom: 1px dotted black; /*underlines link when you drag the mouse over it*/
+menu ul a:hover {
+  background-color: #f8cbe6; /*hover color */
 }
 /*styling for h1*/
 h1 {
   margin-left: 5%; /* moves Misson*/
 }
 /* stylig for p*/
-p{
+p {
   margin-left: 15%;
-  font-size: 4rem;
+  font-size: 1rem;
 }
 button {
   background-color: #000000;
-  color: #ffffff;
   font: 1rem;
-  height: 36px;
-  width: 125px;
-  margin: 8px;
-  margin-left: 80%; /* moves button*/
+  /* height: 36px; */
+  /* width: 125px; */
+  /* margin: 8px; */
+  margin-left: 60%; /* moves button*/
+}
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+h2 {
+  margin-left: 50%;
 }
 /* styling for the footer */
+.main {
+  display: block;
+}
+.extentions img {
+  width: 56px;
+  height: 125px;
+}
+
 footer {
   display: flex;
   align-items: center;
   background-color: #fff;
   justify-content: space-around; /*evenly distributes sections horizontally*/
+  background-color:  #FFF1F7;
 }
-
 /* styling contact section */
 .contact {
   display: flex;
