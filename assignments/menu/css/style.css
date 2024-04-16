@@ -3,12 +3,8 @@
   margin: 0;
   padding: 0;
 }
-/* styling for the menu */
-/* .logo img {
-  margin-left: 40%;
-} */
 header {
- background-color: #FFF1F7;
+  background-color: #fff1f7;
 }
 .logo {
   display: flex;
@@ -17,7 +13,7 @@ header {
 menu {
   margin: 0%;
 }
-menu ul{
+menu ul {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
@@ -35,6 +31,7 @@ menu ul a:hover {
 /*styling for h1*/
 h1 {
   margin-left: 5%; /* moves Misson*/
+  margin-top: 2%;
 }
 /* stylig for p*/
 p {
@@ -44,6 +41,7 @@ p {
 button {
   background-color: #000000;
   font: 1rem;
+  margin-top: 2%;
   /* height: 36px; */
   /* width: 125px; */
   /* margin: 8px; */
@@ -52,11 +50,13 @@ button {
 button a {
   text-decoration: none;
   color: #fff;
+  background-color: #000000;
+  margin-top: 2%;
+  margin-left: 60%;
 }
 h2 {
   margin-left: 50%;
 }
-/* styling for the footer */
 .main {
   display: block;
 }
@@ -64,13 +64,12 @@ h2 {
   width: 56px;
   height: 125px;
 }
-
 footer {
   display: flex;
   align-items: center;
   background-color: #fff;
   justify-content: space-around; /*evenly distributes sections horizontally*/
-  background-color:  #FFF1F7;
+  background-color: #fff1f7;
 }
 /* styling contact section */
 .contact {
