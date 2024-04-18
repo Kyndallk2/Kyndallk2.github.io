@@ -30,8 +30,9 @@ menu ul a:hover {
 }
 /*styling for h1*/
 h1 {
-  margin-left: 5%; /* moves Misson*/
+  margin: auto;/* moves Misson*/
   margin-top: 2%;
+  color: #D54A83;
 }
 /* stylig for p*/
 p {
@@ -49,13 +50,14 @@ button {
 }
 button a {
   text-decoration: none;
-  color: #fff;
+  color: #fff; /*font color */
   background-color: #000000;
   margin-top: 2%;
   margin-left: 60%;
 }
-h2 {
-  margin-left: 50%;
+ h2 {
+  margin: auto;
+  color: #D54A83;
 }
 .main {
   display: block;
