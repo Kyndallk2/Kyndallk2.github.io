@@ -3,12 +3,20 @@
   margin: 0%;
   padding: 0%;
 }
+/* centers everything and makes it responnsive */
+#wrapper {
+  max-width: 1024px;
+  border: 1px solid #777;
+  margin: auto;
+}
 header {
   background-color: #fff1f7;
 }
 .logo {
   display: flex;
   justify-content: center;
+  margin: auto;
+  width: 185px;
 }
 menu ul {
   display: flex;
@@ -22,15 +30,14 @@ menu a {
 menu a:hover {
   background-color: #f8cbe6; /*hover color */
 }
-/*styling for h1*/
 h1 {
   margin-top: 2%; /*moves misson down*/
-  color: #D54A83;
+  color: #d54a83;
   text-align: center; /*moves Misson to the center*/
 }
-/* stylig for p*/
 p {
-  margin-left: 15%;
+  margin-top: 3%;
+  text-align: center;
   font-size: 1rem;
 }
 button {
@@ -47,22 +54,28 @@ button a {
   color: #fff; /*font color */
   background-color: #000000;
   margin-top: 2%;
-  margin-left: 60%; 
+  margin-left: 60%;
 }
- h2 {
+h2 {
   text-align: center;
-  color: #D54A83;
+  color: #d54a83;
   margin-top: 5%;
+  font-size: 2rem;
 }
-.collage {
-  display: flexbox;
-  justify-content: center;
-  }
-  h3 {
-    text-align: center;
-    color: #D54A83;
-    margin-top: 5%;
-  }
+img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+h3 {
+  text-align: center;
+  color: #d54a83;
+  margin-top: 5%;
+  font-size: 2rem;
+}
+.instagram {
+  width: 50px;
+}
 /* styling for the footer */
 footer {
   display: flex;
